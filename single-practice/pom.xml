@@ -3,4 +3,21 @@
   <groupId>kr.or.connect</groupId>
   <artifactId>single-practice</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<maven.compiler.source>1.8</maven.compiler.source>
+	<maven.compiler.target>1.8</maven.compiler.target>  
+  </properties>
+  
+  	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>   <!-- 테스트임을 명시하여 패키징에서 제외 및 가시성 -->
+		</dependency>
+	</dependencies>
+
 </project>
+
