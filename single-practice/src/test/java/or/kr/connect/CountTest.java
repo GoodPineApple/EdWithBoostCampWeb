@@ -13,10 +13,12 @@ public class CountTest {
     @Test
     public void testPlus() {
         System.out.print(count++);
+        System.out.println("testPlus");
     }
 
     @Test
     public void increase (){
         System.out.print(count++);
+        System.out.println("increase");
     }
 }
